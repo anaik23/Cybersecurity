@@ -1,6 +1,3 @@
-# Cybersecurity
-See branches for assignments.
-
 # VirtualBox and Kali
 
 **Homework Instructions**: 
