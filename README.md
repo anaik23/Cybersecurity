@@ -24,4 +24,5 @@ Save the file as **screenfetch.gif**.
 <img src="vbox_kali.gif" alt="Virtualbox Installation">
  
 ### Running screenfetch
-<img src="screenfetch.gif" alt="Running screenfetch">
+<img src="https://user-images.githubusercontent.com/64218573/133916564-7ab79e8e-1ffe-404f-86b6-e7bf779cbde8.gif" alt="Running screenfetch">
+
