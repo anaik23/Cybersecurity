@@ -33,7 +33,7 @@ Description:
 
 Vulnerability #1: Username Enumeration
 
-Description:
+Description: The bold text that is returned when we use "jmonroe99" as the username and and standard text returned when we use "hacker" as the username tells us as hackers that "jmonroe99" is in the database and "hacker" is not. This is username enumeration vulnerability becuase the system gave information regarding which is a correct and wrong username with the use of bold text. 
 
 <img src="http://g.recordit.co/5wCwKNN9VV.gif">
 
