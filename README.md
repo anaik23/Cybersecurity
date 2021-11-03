@@ -17,11 +17,11 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: Session Hijacking/Fixation
 
 Description:
 
-<img src="blue-vuln1.gif">
+<img src="http://g.recordit.co/CXUME0aTWJ.gif">
 
 Vulnerability #2: __________________
 
@@ -37,11 +37,11 @@ Description: The bold text that is returned when we use "jmonroe99" as the usern
 
 <img src="http://g.recordit.co/5wCwKNN9VV.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting
 
 Description:
 
-<img src="green-vuln2.gif">
+<img src="http://g.recordit.co/96WgGM2QMX.gif">
 
 
 ## Red
