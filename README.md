@@ -17,17 +17,20 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: Session Hijacking/Fixation
+Vulnerability #1: SQL Injection
+
+Description:
+
+<img src="http://g.recordit.co/aUAfU46Xqi.gif">
+
+
+Vulnerability #2: Session Hijacking/Fixation
 
 Description:
 
 <img src="http://g.recordit.co/CXUME0aTWJ.gif">
 
-Vulnerability #2: __________________
 
-Description:
-
-<img src="blue-vuln2.gif">
 
 ## Green
 
@@ -52,7 +55,7 @@ Description:
 
 <img src="http://g.recordit.co/bB1RVWjluf.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery
 
 Description:
 
