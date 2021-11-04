@@ -19,14 +19,14 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability #1: SQL Injection
 
-Description: 
+Description: When an SQL Injection is performed in the URL for the id with a "'" after the id value we get a Database Query Failed which is not present in other sites like the green and the red. This means that the Blue is not sanatizing the input properly.
 
 <img src="http://g.recordit.co/aUAfU46Xqi.gif">
 
 
 Vulnerability #2: Session Hijacking/Fixation
 
-Description:
+Description: This shows how in the Blue site when the Session ID was taken from one broswer and that same Session ID was used in browser that needed to be attacked, the attacked broswer once Session ID was changed the page was logged into. 
 
 <img src="http://g.recordit.co/CXUME0aTWJ.gif">
 
@@ -42,7 +42,7 @@ Description: The bold text that is returned when we use "jmonroe99" as the usern
 
 Vulnerability #2: Cross-Site Scripting
 
-Description:
+Description: This shows how when a script was put into the contact us form, the script was able to get executed and showed up in the feedback tab. 
 
 <img src="http://g.recordit.co/96WgGM2QMX.gif">
 
@@ -51,12 +51,13 @@ Description:
 
 Vulnerability #1: Insecure Direct Object Reference
 
-Description:
+Description: This one shows how changing the ID in the URL of the site caused a leakage of data such a non-public user which was not suppose to be shown to a user like me. 
 
 <img src="http://g.recordit.co/bB1RVWjluf.gif">
 
 Vulnerability #2: Cross-Site Request Forgery
 
+Code Block:
 ```
 <!doctype html>
 <html lang="en">
@@ -78,7 +79,7 @@ Vulnerability #2: Cross-Site Request Forgery
 </html>
 ```
 
-Description:
+Description: This one shows how through the use of a html inputted into a contact us form was able to get executed and change a salesperson first and last name without even being logged into that particular user. 
 
 <img src="http://g.recordit.co/s81R3gbEvc.gif">
 
