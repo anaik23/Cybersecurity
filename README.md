@@ -46,11 +46,11 @@ Description:
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
 
 Description:
 
-<img src="red-vuln1.gif">
+<img src="http://g.recordit.co/bB1RVWjluf.gif">
 
 Vulnerability #2: __________________
 
