@@ -86,5 +86,5 @@ Description: This one shows how through the use of a html inputted into a contac
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+None
 
